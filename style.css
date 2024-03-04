@@ -1,0 +1,56 @@
+.main {
+    width: 75%;
+    max-width: 100%; /* Ensure image doesn't exceed container*/
+    display: block;
+    margin: 0 auto; /* Center image horizontally */
+    border: 3px solid rgb(151, 149, 149);
+}
+.header {
+    background: url(images/main-img-2.png);
+    border: 2px solid rgb(212, 158, 110);
+    margin-bottom: 30px;
+}
+.transbox {
+    margin: 30px;
+    background-color: #ffffff;
+    border: 1px solid rgb(172, 149, 96);
+    opacity: 0.6;
+    text-align: center;
+}
+.transbox h1 {
+    margin: 5%;
+    font-weight: bold;
+    color: #251515;
+}
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 columns */
+    grid-template-rows: repeat(4, auto); /* 4 rows */
+    gap: 20px; /* Gap between grid items */
+    padding: 20px;
+    }
+.item {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.item img {
+    width: 70%; /* Image takes up 70% of div's width */
+    max-width: 100%; /* Ensure image doesn't exceed container */
+    display: block;
+    margin: 0 auto; /* Center image horizontally */
+    border-radius: 5px;
+}
+.item h2 {
+    text-align: center;
+    color: #333;
+}
+.item p {
+    text-align: justify;
+}
+.item a {
+    color: rgb(60, 81, 236);
+    text-decoration: none;
+    float: right;
+}
